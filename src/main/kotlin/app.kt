@@ -44,11 +44,13 @@ fun updateCache() {
 }
 
 inline fun auth(user: User, callback: AuthCallback, updateCache: () -> Unit) {
-    if (user.age >= 18) {
+    try {
+        user.nuiche()
         callback.authSuccess()
         updateCache()
-    } else
+    } catch (e: Exception) {
         callback.authFailed()
+    }
 }
 
 fun doAction(a: Action) = when (a) {
