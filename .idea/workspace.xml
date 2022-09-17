@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4750bae-bb23-4282-b2b6-aea17d74fed0" name="Changes" comment="comm1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Action.kt" afterDir="false" />
+    <list default="true" id="b4750bae-bb23-4282-b2b6-aea17d74fed0" name="Changes" comment="comm2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$auth$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$authef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$authef$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/AppKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/aaa2/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Action.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Action.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aaaaaaaaaaaaaaaa" beforeDir="false" afterPath="$PROJECT_DIR$/../aaaaaaaaaaaaaaaa" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663321891708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="comm2">
+      <created>1663338072789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663338072789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comm1" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm1" />
+    <MESSAGE value="comm2" />
+    <option name="LAST_COMMIT_MESSAGE" value="comm2" />
   </component>
 </project>
