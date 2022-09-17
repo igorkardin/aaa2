@@ -1,5 +1,5 @@
 sealed class Action {
-    class Registration() : Action()
-    class Logout() : Action()
+    object Registration : Action()
+    object Logout : Action()
     class Login(val lg: User) : Action()
 }

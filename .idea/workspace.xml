@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4750bae-bb23-4282-b2b6-aea17d74fed0" name="Changes" comment="comm2">
+    <list default="true" id="b4750bae-bb23-4282-b2b6-aea17d74fed0" name="Changes" comment="comm3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$authef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/AppKt$main$authef$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aaa2/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/AppKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aaa2/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aaa2/META-INF/aaa2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aaa2/META-INF/aaa2.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Action.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Action.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/app.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/app.kt" afterDir="false" />
@@ -80,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663338072789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="comm3">
+      <created>1663405719932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663405719932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comm1" />
     <MESSAGE value="comm2" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm2" />
+    <MESSAGE value="comm3" />
+    <option name="LAST_COMMIT_MESSAGE" value="comm3" />
   </component>
 </project>

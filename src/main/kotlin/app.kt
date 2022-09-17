@@ -27,15 +27,15 @@ fun main(args: Array<String>) {
     println(listOfUser[(listOfUser.size - 1)].name)
 
     natasha.nuiche()
+}
 
-    val authef = object : AuthCallback {
-        override fun authSuccess() {
-            println("authorization successful")
-        }
+val authef = object : AuthCallback {
+    override fun authSuccess() {
+        println("authorization successful")
+    }
 
-        override fun authFailed() {
-            println("authorization failed")
-        }
+    override fun authFailed() {
+        println("authorization failed")
     }
 }
 
@@ -51,10 +51,10 @@ inline fun auth(user: User, callback: AuthCallback, updateCache: () -> Unit) {
         callback.authFailed()
 }
 
-fun doAction(a: Action, cb: AuthCallback) = when (a) {
+fun doAction(a: Action) = when (a) {
     is Action.Registration -> println("Registration")
     is Action.Logout -> println("Logout")
-    is Action.Login -> auth(user = a.lg, callback = cb, updateCache = { updateCache() })
+    is Action.Login -> auth(user = a.lg, callback = authef, updateCache = { updateCache() })
 }
 
 
